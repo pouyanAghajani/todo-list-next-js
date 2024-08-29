@@ -1,7 +1,8 @@
-interface PostsDetails {
-  userId: number;
+interface commentsDetails {
+  title: ReactNode;
+  name: string;
   id: number;
-  title: string;
+  email: string;
   body: string;
 }
-export default PostsDetails;
+export default commentsDetails;
